@@ -515,11 +515,7 @@ img{
 	float: left;
 	display: inline;
 	width: 100%;
-<<<<<<< HEAD
     filter: brightness(0.4);
-=======
-    opacity: none;
->>>>>>> a16e4555d08dacf04c58f07f7ac4e2381d4c1255
 }
 
 .single-slide img{
@@ -546,7 +542,7 @@ filter: brightness(10);
 
 .main-slider .slick-prev,
 .main-slider .slick-next {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0.5);
   top: 48%;
   height: 50px;
   width: 50px;
