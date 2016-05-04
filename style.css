@@ -2669,3 +2669,25 @@ img{
     height: 220px;
   }
 }
+
+
+.gr{
+    display: block;
+    color: black;
+    padding-left: 550px;
+    padding-bottom: 0.1px;
+    background-color: whitesmoke;
+}
+
+.wh{
+    display: block;
+    background-color: white;
+    color: darkslategray;
+    image-orientation: center;
+    padding-left: 400px
+}
+
+.sec{
+    background-color: darkgray;
+    padding: 25px;
+}
