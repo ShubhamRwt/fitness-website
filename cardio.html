@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Intensely : Muscles</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+    <!-- Font Awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">    
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/> 
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/> 
+    <!-- Bootstrap progressbar  --> 
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-progressbar-3.3.4.css"/> 
+     <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+
+    <!-- Open Sans for body font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- Lato for Title -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>     
+
+  <!-- BEGAIN PRELOADER -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+  <!-- END PRELOADER -->
+
+  <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header -->
+  <header id="header">
+    <!-- header top search -->
+    <div class="header-top">
+      <div class="container">
+        <form action="">
+          <div id="search">
+          <input type="text" placeholder="Type your search keyword here and hit Enter..." name="s" id="m_search" style="display: inline-block;">
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+        </form>
+      </div>
+    </div>
+    <!-- header bottom -->
+    <div class="header-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="header-contact">
+              <ul>
+                <li>
+                  <div class="phone">
+                    <i class="fa fa-phone"></i>
+                    +1(800) 699-7071
+                  </div>
+                </li>
+                <li>
+                  <div class="mail">
+                    <i class="fa fa-envelope"></i>
+                    iam@domain.com
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="header-login">
+              <a class="login modal-form" data-target="#login-form" data-toggle="modal" href="#">Login / Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header -->
+  
+  <!-- Start login modal window -->
+  <div aria-hidden="false" role="dialog" tabindex="-1" id="login-form" class="modal leread-modal fade in">
+    <div class="modal-dialog">
+      <!-- Start login section -->
+      <div id="login-content" class="modal-content">
+        <div class="modal-header">
+          <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title"><i class="fa fa-unlock-alt"></i>Login</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <input type="text" placeholder="User name" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+             <div class="loginbox">
+              <label><input type="checkbox"><span>Remember me</span></label>
+              <button class="btn signin-btn" type="button">SIGN IN</button>
+            </div>                    
+          </form>
+        </div>
+        <div class="modal-footer footer-box">
+          <a href="#">Forgot password ?</a>
+          <span>No account ? <a id="signup-btn" href="#">Sign Up.</a></span>            
+        </div>
+      </div>
+      <!-- Start signup section -->
+      <div id="signup-content" class="modal-content">
+        <div class="modal-header">
+          <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title"><i class="fa fa-lock"></i>Sign Up</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <input placeholder="Name" class="form-control">
+            </div>
+            <div class="form-group">
+              <input placeholder="Username" class="form-control">
+            </div>
+            <div class="form-group">
+              <input placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <div class="signupbox">
+              <span>Already got account? <a id="login-btn" href="#">Sign In.</a></span>
+            </div>
+            <div class="loginbox">
+              <label><input type="checkbox"><span>Remember me</span><i class="fa"></i></label>
+              <button class="btn signin-btn" type="button">SIGN UP</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End login modal window -->
+
+  <!-- BEGIN MENU -->
+  <section id="menu-area">      
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <!-- TEXT BASED LOGO -->
+          <a class="navbar-brand" href="index.html">Intensely</a>              
+          <!-- IMG BASED LOGO  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->                    
+        </div>
+
+          <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">BASIC <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">              
+                <li><a href="Muscles.html">Muscles</a></li>
+                <li><a href="Terminolgies.html">Terminologies</a></li>          
+              </ul>
+            </li>
+            <!--<li><a href="service.html">Service</a></li>-->
+               <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">WORKOUT <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">              
+                <li><a href="Muscles.html">Cardio</a></li>
+                <li><a href="Terminolgies.html">Anatomy and Exercises</a></li>
+                   </ul>
+              </li>
+            <li><a href="Plant Protein.html">PLANT PROTEIN</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PLANS <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+<!--                <li><a href="blog-archive.html">Blog Archive</a></li>                -->
+                <li><a href="Muscles.html">Vegan Diet Plan</a></li>
+                <li><a href="Terminolgies.html">Workout Routine</a></li>
+<!--                <li><a href="blog-single-with-out-sidebar.html">Blog Single with out Sidebar</a></li>           -->
+              </ul>
+            </li>
+            <li><a href="404.html">STORIES</a></li>               
+            <li><a href="contact.html">EBOOKS</a></li>
+          </ul>                     
+        </div>
+        <!-- search icon -->
+        <a href="#" id="search-icon">
+          <i class="fa fa-search">            
+          </i>
+        </a>
+      </div>     
+    </nav>
+  </section>
+  <!-- END MENU -->  
+  
+  <!-- Start single page header -->
+  <section id="single-page-header">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-left">
+              <h2>Cardio</h2>
+              <p><blockquote>Choose wisely, then eat in moderation. When I know I'm going to Mom's for dinner, I throw an extra 20 minutes on the cardio machine so I can be ready to eat. 
+Read more at: http://www.brainyquote.com/quotes/keywords/cardio.html</blockquote>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-right">
+              <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Cardio</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+              <div class="col-md-8">
+                <div class="blog-archive-left">
+                  <!-- Start blog news single -->
+                  <article class="blog-news-single">
+                    <div class="blog-news-img">
+                    </div>
+                    <div class="blog-news-title">
+                      <h2>All about writing story</h2>
+                      <p>By <a class="blog-author" href="#">Vibhore Aggarwal</a> <span class="blog-date">|18 Jan 2016</span></p>
+                    </div>
+                    <div class="blog-news-details blog-single-details">
+                        <h2>Cardio</h2>
+                        <p>
+                         The word 'cardio' is probably one of the first words you hear when you embark on an exercise program.  As in, you have to do a whole bunch of it.  And that's kind of true.  If you want to lose weight, you may have to do up to 300 minutes of cardio a week and that doesn't even include strength training.<br><br>So, you know you need cardio, but the real question is why you need cardio?  Getting a deeper understanding of cardio exercise may be what you need to get motivated to do it a little more often.
+                        </p>
+                        <h3>Why Cardio is good for you?</h3>
+                        <p>
+                        Before we talk about how much cardio you should do, you should at least know what it is and why it's so good for you.<br><br>For the record, cardio exercise simply means that you're doing a rhythmic activity that raises your heart rate into your Target Heart Rate Zone, the zone where you'll burn fat and calories.
+                        </p>
+                        <h3>The Benefits of Cardio</h3>
+                        <ul><li>It helps you burn fat and calories for weight loss</li>
+                        <li>It makes your heart strong so that it doesn't have to work as hard to pump blood</li>
+                        <li>It helps reduce risk of heart attack, high cholesterol, high blood pressure and diabetes</li>
+                        <li>It increases your lung capacity</li>
+                        <li>It reduces stress.</li>
+                        </ul>
+                            <p>I could go on and usually I do, but I think you get the point.  Even just a few minutes of cardio can have health benefits - I'm not kidding!  A 5 minute walk outside can boost your mood and help lower blood pressure, so even a little goes a long way.<br><br>You know you need cardio, so let's get to the nitty gritty with our next section, which is all about how you choose your cardio exercise.<br><br>
+                            Your first step is to what kind of activities you'd like to do. The trick is to think about what's accessible to you, what fits your personality and what you'd feel comfortable fitting into your life. If you like to go outdoors, running, cycling, or walking are all good choices.</p>
+                        <h3>For Home Excercisers</h3>
+                        <p>
+                         If you prefer going to the gym, you have access to many more options in the form of machines like  stationary bikes, elliptical trainers, treadmills, rowing machines, stairmasters and more.
+                        </p>
+                        <ul>
+                            <li>
+                                Exercise Videos
+                            </li>
+                            <li>
+                                Online Exercises and Workouts
+                            </li>
+                            <li>
+                                A variety of Home Cardio Exercises you can do like jumping rope, jumping jacks, jogging in place, burpees and more.
+                            </li>
+                        </ul>
+                        <h3>Getting Started.</h3>
+                        <p>
+                            You have so many choices but, the trouble is, you may not even know what you like yet.  You may have to try several different activities before you find one that works for you.  This is the experiment we all have to take part in and it can be hit or miss so don't be afraid to try something and, if it doesn't work, move on to something else. Just about any activity will work, as long as it involves a movement that gets your heart rate into your Target Heart Rate Zone.
+                        </p>
+                        <h3>Some Important Tips for Choosing Your Cardio</h3>
+                        <ul>
+                            <li>
+                                There is no 'best' cardio exercise. Just because your friend says running is the BEST doesn't mean you have to do it, especially if running makes you feel like your entire body is falling apart.  Anything that gets your heart rate up fits the bill</li>
+                        <li>
+                            It's not what you do, but how hard you work. Any exercise can be challenging if you make it that way
+                        </li>
+                        <li>
+                            Do something you enjoy or at least something you can tolerate. If you hate gym workouts, don't force yourself onto a treadmill. If you like socializing, consider sports, group fitness, working out with a friend or a walking club.
+                        </li>
+                        <li>
+                            Choose something you can see yourself doing at least 3 days a week.
+                        </li>
+                        <li>
+                            Be flexible and don't be afraid to branch out once you get comfortable with exercise
+                        </li>
+                        </ul>
+                        <p>After you choose what to do, the most important element of your workout will now be how long you do it. You should work on duration before you work on anything else--it takes time to build up the endurance for continuous exercise.<br><br>You know you probably need anywhere from 20-60 minutes of cardio to lose weight and get fit, depending on the types of workouts you do, but you don't want to start with an hour of exercise - That's just too much for anyone if you haven't exercised for awhile...or ever.</p>
+                        <h3>How to Start as a Beginner</h3>
+                        <p>
+                            Start with an accessible exercise, like walking or a treadmill, and start with about 10-20 minutes of brisk walking at a moderate intensity.  That means you're just out of your comfort zone, at around a Level 5 or 6 on this Perceived Exertion Scale.
+                        </p>
+                        <h4>Beginner Workout Options</h4>
+                        <ul><li>20-Minute Cardio for Absolute Beginners</li>
+                        <li>25-Minute Cardio for Absolute Beginners</li>
+                        </ul>
+                        <h2>Important Tips for How Long You Should Workout</h2>
+                        <ul><li>You don't have to do it all at once.  You can absolutely split your workouts into smaller workouts throughout the day.  Try three 10-minute walks as a good start.</li>
+                        <li>Add small bursts of cardio throughout the day by climbing stairs or speed walking.</li>
+                        <li>Do all those things you know you should be doing: take the stairs, walk more, stop driving around looking for that front row parking space, etc.</li>
+                        <li>Make the time. People who workout don't have more time than people who don't. They've just practiced making exercise a priority. Scheduling your workouts and treating them like any other appointment you wouldn't miss may help you stick to your program.</li>
+                        <li>Pay someone to make you exercise. Finding a good personal trainer can make a difference when it comes to motivation and reaching your goals.</li>
+                        <li>Do something...anything. If you think 5 minutes isn't enough time to workout, you couldn't be more wrong. Whether it's 5 minutes, 10 minutes or 60 minutes, every single minute counts.</li>
+                        <li>Consider your intensity.  The harder you work, the shorter your workouts should be.  So, if you're doing Tabata Training or some other kind of High Intensity Interval Training, your workout may only be 10-20 minutes long.  If you're doing a slower, steady state workout, you can workout longer, maybe 30-60 minutes.</li>
+                        </ul>
+                        <br><br>
+                        <p>But, for weight loss, it's a whole other story<br><br>And it's just just about frequency - It's about intensity as well.  If you only do moderate workouts, you can probably workout every day.  But, if you do high intensity interval training, you may need more rest days thrown in there.  And, honestly, it's better to have a mixture of the two so that you're working different energy systems and giving your body something different to do so you don't burn out.</p>
+                      <div class="blog-single-bottom">
+                        <div class="row">
+                          <div class="col-md-8">
+                            <div class="blog-single-tag">
+                              <span class="fa fa-tags"></span>
+                              <a href="#">Design,</a>
+                              <a href="#">Photoshop,</a>
+                              <a href="#">Development</a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="blog-single-social">
+                              <a href="#"><i class="fa fa-facebook"></i></a>
+                              <a href="#"><i class="fa fa-twitter"></i></a>
+                              <a href="#"><i class="fa fa-linkedin"></i></a>
+                              <a href="#"><i class="fa fa-google-plus"></i></a>
+                              <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!-- Start blog navigation -->
+                  <div class="blog-navigation-area">
+                    <div class="blog-navigation-prev">
+                      <a href="#">
+                        <h5>All about writing story</h5>
+                        <span>Previous Post</span>
+                      </a>
+                    </div>
+                    <div class="blog-navigation-next">
+                      <a href="#">
+                        <h5>All about friends story</h5>
+                        <span>Next Post</span>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Start Comment box -->
+                  <div class="comments-box-area">
+                    <h2>Leave a Comment</h2>
+                    <p>Your email address will not be published.</p>
+                    <form action="" class="comments-form">
+                       <div class="form-group">                        
+                        <input type="text" class="form-control" placeholder="Your Name">
+                      </div>
+                      <div class="form-group">                        
+                        <input type="email" class="form-control" placeholder="Email">
+                      </div>
+                       <div class="form-group">                        
+                        <textarea placeholder="Comment" rows="3" class="form-control"></textarea>
+                      </div>
+                      <button class="comment-btn">Submit Comment</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 visible-sm visible-xs">
+                <aside class="blog-side-bar">
+                  <!-- Start sidebar widget -->
+                  <div class="sidebar-widget">
+                    <!-- Start blog search -->
+                    <form>                    
+                      <div class="search-group">                        
+                        <button type="button" class="blog-search-btn"><span class="fa fa-search"></span></button>
+                        <input type="search" placeholder="Search">
+                      </div>                    
+                    </form>
+                    <!-- End blog search -->                                
+                  </div>
+                  <!-- Start sidebar widget -->
+                  <div class="sidebar-widget">
+                    <h4 class="widget-title">Categories</h4>
+                    <ul class="widget-catg">                      
+                      <li><a href="#">Photoshop</a></li>
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="#">Web Development</a></li>
+                      <li><a href="#">UI Design</a></li>
+                      <li><a href="#">Photography</a></li>
+                    </ul>
+                  </div>
+                  <!-- Start sidebar widget -->
+                  <div class="sidebar-widget">
+                    <h4 class="widget-title">Text Widget</h4>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                  </div>
+                  <!-- Start sidebar widget -->
+                  <div class="sidebar-widget">
+                    <h4 class="widget-title">Tags</h4>
+                    <div class="tag-cloud">
+                      <a href="#">Responsive</a>
+                      <a href="#">Design</a>
+                      <a href="#">Modern</a>
+                      <a href="#">Business</a>
+                      <a href="#">Software</a>
+                      <a href="#">Photoshop</a>
+                      <a href="#">Fashion</a>                      
+                      <a href="#">News</a>
+                      <a href="#">Health</a>
+                      <a href="#">Education</a>
+                    </div>
+                  </div>
+                  <!-- Start sidebar widget -->
+                  <div class="sidebar-widget">
+                    <h4 class="widget-title">Archive</h4>
+                    <ul class="widget-archive">
+                      <li><a href="#">November 2015<span>(35)</span></a></li>
+                      <li><a href="#">October 2015<span>(55)</span></a></li>
+                      <li><a href="#">September 2015<span>(65)</span></a></li>
+                      <li><a href="#">August 2015<span>(75)</span></a></li>
+                      <li><a href="#">July 2015<span>(105)</span></a></li>
+                    </ul>
+                  </div>
+                  <!-- Start sidebar widget -->
+                  <div class="sidebar-widget">
+                    <h4 class="widget-title">Important Links</h4>
+                    <ul>
+                      <li><a href="#">Link 1</a></li>
+                      <li><a href="#">Link 2</a></li>
+                      <li><a href="#">Link 3</a></li>
+                      <li><a href="#">Link 4</a></li>
+                    </ul>
+                  </div>
+                </aside>
+              </div>             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- End blog archive -->
+
+  <!-- Start subscribe us -->
+  <section id="subscribe">
+    <div class="subscribe-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="subscribe-area">
+              <h2>Subscribe Newsletter</h2>
+              <form action="" class="subscrib-form">
+                <input type="text" placeholder="Enter Your E-mail..">
+                <button class="subscribe-btn" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End subscribe us -->
+
+  <!-- Start footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-left">
+            <p>Designed by <a href="http://www.markups.io/">MarkUps.io</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-right">
+            <a href="index.html"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer -->
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.js"></script>
+  <!-- Slick Slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>    
+  <!-- mixit slider -->
+  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+ <!-- counter -->
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/jquery.counterup.js"></script>
+  <!-- Wow animation -->
+  <script type="text/javascript" src="assets/js/wow.js"></script> 
+  <!-- progress bar   -->
+  <script type="text/javascript" src="assets/js/bootstrap-progressbar.js"></script>  
+  
+ 
+  <!-- Custom js -->
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+    
+  </body>
+</html>
