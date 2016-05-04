@@ -515,6 +515,7 @@ img{
 	float: left;
 	display: inline;
 	width: 100%;
+    opacity: none;
 }
 
 .single-slide img{
@@ -540,7 +541,7 @@ img{
 
 .main-slider .slick-prev,
 .main-slider .slick-next {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0);
   top: 48%;
   height: 50px;
   width: 50px;
