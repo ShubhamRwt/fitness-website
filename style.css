@@ -1435,6 +1435,10 @@ filter: brightness(10);
 .blog-news-details p{
   font-size: 14px;
 }
+.blog-news-details h3{
+  font-size: 20px;
+    color: black;
+}
 
 .blog-more-btn {
   color: #838282;
@@ -1582,14 +1586,149 @@ filter: brightness(10);
 
 #single-page-header{
   background-attachment: fixed !important;
-  background-image: url("assets/images/slider-5.jpg");
+  background-image: url("assets/images/muscle%20hypertrophy.jpg");
   background-repeat: repeat;
-  background-size: cover;
+  background-size: auto;
   color: #ffffff;
   display: inline;
-  float: left;    
+  float: left; 
   width: 100%;
+
 }
+
+#single-page-header2{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/terminologies.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header3{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/LoveAnimal.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header4{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/Back.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header5{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/Buttocks.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header6{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/Cardio.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header7{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/Chest.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header8{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/bodybuildingebook.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header9{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/Legs.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header10{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/plant%20protein.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header11{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/Shoulder.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+#single-page-header12{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/Stories.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  color: #ffffff;
+  display: inline;
+  float: left; 
+  width: 100%;
+
+}
+
+
 
 .overlay{
   background-color: rgba(0,0,0,0.6); 
@@ -1606,6 +1745,7 @@ filter: brightness(10);
 
 .single-page-header-left h2{
   text-transform: uppercase;
+    color: turquoise;
 }
 
 .single-page-header-left p {
@@ -1974,7 +2114,7 @@ filter: brightness(10);
 
 .blog-single-details ul,
 .blog-single-details ol {
-  padding-left: 25px;
+  padding-left: 35px;
   margin-bottom: 20px;
 }
 
@@ -2699,6 +2839,6 @@ filter: brightness(10);
     padding: 25px;
 }
 .muscle-body{
-   text-align: center;
-   padding-left: 300px;
+   text-align: left;
+   padding: 100px;
 }
