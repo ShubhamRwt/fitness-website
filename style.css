@@ -412,6 +412,8 @@ img{
 .navbar-brand > img {
   display: block;
   margin-top: -5px;
+    width: 50;
+    height: 50;
 }
 
 .main-nav li {
@@ -515,16 +517,14 @@ img{
 	float: left;
 	display: inline;
 	width: 100%;
-<<<<<<< HEAD
-    filter: brightness(0.4);
-=======
-    opacity: none;
->>>>>>> a16e4555d08dacf04c58f07f7ac4e2381d4c1255
+
+   
+
 }
 
 .single-slide img{
 	width: 100%;
-filter: brightness(10);
+
 }
 
 .slide-content {
